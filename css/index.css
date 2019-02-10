@@ -189,3 +189,36 @@ main section {
 main section h3 {
   margin-bottom: 10px;
 }
+footer {
+  background-image: url(../img/footer-background.jpg);
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h2 {
+  margin: 20px 0;
+}
+footer #profile-picture {
+  height: 300px;
+  margin: 20px 0;
+}
+footer #social-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 20px 0;
+}
+footer #social-buttons .icon {
+  padding: 8px;
+  width: 70px;
+  height: 70px;
+}
+footer #social-buttons .icon:hover {
+  background-color: white;
+}
+footer #description {
+  width: 80%;
+  margin: 20px 0;
+}
