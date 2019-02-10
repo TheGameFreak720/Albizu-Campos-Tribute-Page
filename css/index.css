@@ -126,3 +126,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: "Times New Roman", Georgia, Verdana;
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.2rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.6rem;
+}
